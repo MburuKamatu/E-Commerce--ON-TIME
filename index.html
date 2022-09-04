@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ON TIME</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/1495302337.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!--Navigation Bar-->
+        <section class="box1">
+            <nav>
+                <img src="LogoMakr-6nQVp1.png"width="124px">
+                <div class="navlinks">
+                <ul>
+                <li><a href="#"style="color:black;text-decoration:none">Home</a></li>
+                <li><a href="#"style="color:black;text-decoration:none">Blog</a></li>
+                <li><a href="#"style="color:black;text-decoration:none">About Us</a></li>
+                <li><a href="#"style="color:black;text-decoration:none">Sign In/Register</a></li>
+                <li href="#">Cart</li>
+                </ul>
+                </div>
+             </nav>
+        </section>
+        <!--Slider Section-->
+        <section class="box2">
+        <div class="slider">
+            <div class="slides">
+                <!--radio buttons start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--radio buttons end-->
+                <!--slide images start-->
+                <div class="slide first">
+                    <img src="On Time.png"alt="">
+                </div>
+                <div class="slide">
+                    <img src="Pics/watch4.jpg"alt="">
+                </div>
+                <div class="slide">
+                    <img src="Pics/w2.jpg"alt="">
+                </div>
+                <div class="slide">
+                    <img src="Pics/Slides.jpg"alt="">
+                </div>
+                <!--slide images end-->
+                <!--autamatic navigation start-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-maunual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+        </div>
+        </section>
+        <!--image slider end-->
+        <script type="text/javascript">
+            var counter=1;
+            setInterval(function(){
+                document.getElementById('radio'+counter).checked=true;
+                counter++
+                if(counter>4){
+                    counter=1
+                }
+            },5000)
+        </script>
+        <!--Description Section-->
+        <section id="featured" class="my-5 pb-5">
+            <div class="container text-center mt-5 py-5">
+                  <h3>What We Offer</h3>
+                  <hr class="mx-auto">
+                  <p>Get Premium High Quality Time-Pieces from Our Stores. </p>
+              </div>
+              <div class="row">
+                <div class="course-col">
+                    <i class="fa-solid fa-truck"></i>
+                    <h3>FREE Country Delivery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus cum atque perferendis, nulla eveniet obcaecati natus ipsam ducimus sequi impedit reiciendis esse aliquam iusto, labore ea mollitia provident beatae laudantium?</p>
+                </div>
+                <div class="course-col">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <h3>Same day delivery</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id fugiat qui eveniet aperiam similique non, doloremque sed exercitationem consequatur quaerat praesentium repellat rem eos error quidem blanditiis repudiandae corrupti sapiente?</p>
+                </div>
+                <div class="course-col">
+                    <i class="fa-solid fa-medal"></i>
+                    <h3>Warranty</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam odit itaque quaerat molestias debitis vel quis, est accusantium illo voluptas error iusto iure facere dignissimos nihil maxime harum beatae. Blanditiis.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <!--Top Sellers section-->
+        <section id="featured" class="my-5 pb-5">
+            <div class="container text-center mt-5 py-5">
+                  <h3 id="autamatic-month">August Top Sellers</h3>
+                  <hr class="mx-auto">
+                  <p>Check Out our new products with fair prices </p>
+              </div>
+              <div class="row mx-auto container-fluid">
+                 
+                  <div class="product text-center col-lg-3 col-md-4 col-12">
+                      <img class="img-fluid mb-3 image-resize" src="Pics/4.jpg">
+                  
+                  <div class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <h5 class="p-name">Nixon Black</h5>
+                  <h4 class="p-price">KES 4500.00</h4>
+                  <button class="buy-btn">Buy Now</button>
+                  </div>
+                  <div class="product text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3 image-resize" src="Pics/32.jpg">
+                
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Nixon Alta</h5>
+                <h4 class="p-price">KES 9500.00</h4>
+                <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3 image-resize" src="Pics/35.jpg">
+                
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Nixon 43</h5>
+                <h4 class="p-price">KES 11500.00</h4>
+                <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3 image-resize" src="Pics/12.png">
+                
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Nixon Moon</h5>
+                <h4 class="p-price">KES 8500.00</h4>
+                <button class="buy-btn">Buy Now</button>
+                </div>
+
+                  
+          </section>
+
+        <!--Featured section-->
+        <section id="featured" class="my-5 pb-5">
+            <div class="container text-center mt-5 py-5">
+                  <h3>Our Featured Watches on Sale!</h3>
+                  <hr class="mx-auto">
+                  <p>Check Out our new products with fair prices </p>
+              </div>
+             
+              <div class="row mx-auto container-fluid">
+                 
+                  <div class="product text-center col-lg-3 col-md-4 col-12">
+                      <img class="img-fluid mb-3 image-resize" src="Pics/14.jpg">
+                  
+                  <div class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <h5 class="p-name">Michael Cors</h5>
+                  <h4 class="p-price">KES 14500.00</h4>
+                  <button class="buy-btn">Buy Now</button>
+                  </div>
+                  <div class="product text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3 image-resize" src="Pics/14.jpg">
+                
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Michael Cors</h5>
+                <h4 class="p-price">KES 14500.00</h4>
+                <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3 image-resize" src="Pics/15.jpg">
+                
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Aster</h5>
+                <h4 class="p-price">KES 14500.00</h4>
+                <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3 image-resize" src="Pics/15.jpg">
+                
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Aster</h5>
+                <h4 class="p-price">KES 14500.00</h4>
+                <button class="buy-btn">Buy Now</button>
+                
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3 image-resize" src="Pics/w19.jpg">
+            
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Lumina</h5>
+            <h4 class="p-price">KES 24500.00</h4>
+            <button class="buy-btn">Buy Now</button>
+            </div>
+        
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3 image-resize" src="Pics/w19.jpg">
+        
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <h5 class="p-name">Lumina</h5>
+        <h4 class="p-price">KES 24500.00</h4>
+        <button class="buy-btn">Buy Now</button>
+        </div>
+    
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3 image-resize" src="Pics/w13.jpg">
+    
+    <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <h5 class="p-name">Bee Gray</h5>
+    <h4 class="p-price">KES 8500.00</h4>
+    <button class="buy-btn">Buy Now</button>
+    </div>
+
+<div class="product text-center col-lg-3 col-md-4 col-12">
+    <img class="img-fluid mb-3 image-resize" src="Pics/w13.jpg">
+
+<div class="star">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+</div>
+<h5 class="p-name">Bee Gray</h5>
+<h4 class="p-price">KES 8500.00</h4>
+<button class="buy-btn">Buy Now</button>
+</div>
+</div>
+
+                  
+</section>
+<!--Contact Us/ Inquiry Section-->
+<section class="contactUs">
+    <div class="container text-center mt-5 py-5">
+        <h3> Contact Information!</h3>
+        <hr class="mx-auto">
+        <p>Reach out to us for any inquiries you may have</p>
+    </div>
+    <div class="holder">
+        <form onsubmit="sendEmail()"">
+            <h3>GET IN TOUCH</h3>
+            <input type="text" id="name"placeholder="Your Name" required>
+            <input type="email" id="email"placeholder="Email id" required>
+            <input type="text" id="Phone"placeholder="Phone no." required>
+            <textarea id="message"rows="4"placeholder="How can we help you?"></textarea>
+            <button type="submit">Submit</button>
+           
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+                    Email.send({
+            Host : "smtp.gmail.com",
+            Username : "trevorkamatu254@gmail.com",
+            Password : "ZDma5k76dzAm",
+            To : 'mburukamatu@icloud.com',
+            From : document.getElementById("email").value,
+            Subject : "New Contact Form Inquiry",
+            Body : "Name:"+ document.getElementById("name").value
+                        + "<br> Email: " +document.getElementById("email").value
+                        + "<br> Phone no: " +document.getElementById("phone").value
+                        + "<br> Message: " +document.getElementById("message").value
+        }).then(
+        message => alert("Message Sent Successfully")
+        );
+        }
+    </script>
+</section>
+
+        <!--Our Footer section-->
+        <footer class="mt-5 py-5">
+            <div class="row container mx-auto pt-5">
+                <div class="footer-one col-lg-3 col-md-6 col-12">
+                    <!--<img class="m-5px"src="LogoResized.png"width="5px">-->
+                    <h1 class="pt-0 mt-1">ON TIME</h1>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro tempore magni in perferendis voluptatum omnis. Eveniet debitis exercitationem similique consectetur molestiae adipisci magni quasi alias! Veniam eligendi animi beatae nesciunt?</p>
+                </div>
+                <div class="footer-one col-lg-3 col-md-6 col-12">
+                    <h5 class="pb-2 mt-5">Featured</h5>
+                    <ul class="text-upper list-unstyled">
+                        <li><a href="#" style="color:black;text-decoration:none">Men's Watches</a></li>
+                        <li><a href="#" style="color:black;text-decoration:none">Women's Watches</a></li>
+                        <li><a href="#" style="color:black;text-decoration:none">Kid's Watches</a></li>
+                        <p></p>
+                        <h5> Other Links</h5>
+                        <li><a href="#"style="color:black;text-decoration:none">On Sale</a></li>
+                        <li><a href="#" style="color:black;text-decoration:none">What's New </a></li>
+                       
+                    </ul>
+                </div>
+                <div class="footer-one col-lg-2 col-md-6 col-12">
+                    <h5 class="pb-2 mt-5">Contact Us</h5>
+                   <div>
+                       <h6 class="text-uppercase">Address</h6>
+                       <p>MOI AVENUE,NAIROBI,KENYA</p>
+                   </div>
+                   <div>
+                    <h6 class="text-uppercase">Phone</h6>
+                    <p>0759753602/0758476622</p>
+                </div>
+                <div>
+                    <h6 class="text-uppercase">Mail</h6>
+                    <p>ontime@co.ke</p>
+                </div>
+                </div>
+        
+                <div class="copyright mt-5">
+        
+            <div class="col-lg-3 col-md-4 col-12">
+                <p>On Time © 2022.All rights Reserved</p>
+            </div>
+        </div>
+        </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </body>
+</html>
